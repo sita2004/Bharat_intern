@@ -1,0 +1,68 @@
+body {
+    background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Fvector-art%2F4941847-cosmetic-background-for-product-branding-and-packaging-presentation-geometry-form-circle-molding-on-podium-stage-with-shadow-of-leaf-background-vector-design-eps10&psig=AOvVaw2judEOpTokyw-hLTGqZm5Q&ust=1717825772564000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKjIgPTlyIYDFQAAAAAdAAAAABAR');
+    background: linear-gradient(120deg, #1c1c3c, #1a2b5d);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.form-container {
+    width: 100%;
+}
+
+.form-container h2, .form-container p {
+    color: rgb(231, 224, 224);
+    margin-bottom: 20px;
+}
+
+.form-control {
+    background: rgba(216, 205, 205, 0.1);
+    border: none;
+    border-bottom: 2px solid #764776;
+    border-radius: 6px;
+    color: rgb(216, 205, 205);
+    padding: 10px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-primary {
+    background-color: #764776;
+    border: none;
+    padding: 15px 20px;
+    font-size: 18px;
+    border-radius: 25px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #563d7c;
+}
+
+.btn-primary:focus {
+    outline: none;
+    box-shadow: 0 0 10px #563d7c;
+}
